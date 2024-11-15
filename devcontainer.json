@@ -1,0 +1,9 @@
+{
+  "name": "NestJS Development Container",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
+  "features": {
+    "git": "latest"
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000]
+}
